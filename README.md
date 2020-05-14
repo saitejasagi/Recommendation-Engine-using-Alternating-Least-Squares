@@ -7,10 +7,14 @@ Collaborative Filtering is a method of making predictions about the interests of
 
 **Results**
 
-Latent Vectors	15	10	15	15	15
-Iterations	10	10	20	20	20
-Reg Parameter	0.01	0.01	0.001	0.05	0.01
-RMSE	1.5	0.88	1.4	1.21	1.12
+|Latent Vectors | Iterations |	Reg Parameter|	RMSE|
+|---------------| -----------| --------------|------|
+|15            	|10	         |0.01	         |1.5   |
+|10	            |10	         |0.01	         |0.88  |
+|15	            |20          |0.001	         |1.4   |
+|15	            |20	         |0.05           |1.21  |
+|15           	|20	         |0.01	         |1.12  |
+
 
 The lowest RMSE is observed with the following hyper parameters: 10 latent vectors, 10 iterations and  reg parameter of 0.01.
 
